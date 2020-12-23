@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.registro li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+.registro a{
+    text-decoration: none;
+    color:white ;
+    text-transform: uppercase;
+}
+body{
+    background-image: url("../img/bg-2.png");
+}
+.registro{
+    width: 1140px;
+}
+.registro header{
+    width: 1140px;
+    background-color: orangered;
+    padding: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.registro header img{
+    float: left;
+}
+.registro header ul.lista1{
+    float:left;
+    padding: 10px;
+}
+.registro header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+.registro header li{
+    padding: 10px;
+}
+.registro main{
+    width: 350px;
+    margin-top: 60px;
+}
+.registro main h1{
+    text-align: center;
+}
+.registro main p{
+    font-size: 19px;
+   /*  margin-top: 20px; */
+}
+.registro main input.llenar{
+    width: 350px;
+    height: 30px;
+}
+.registro main p.rojo{
+    font-size: 15px;
+    color: red;
+    margin-bottom: 20px;
+}
+.registro main h3{
+   margin-top: 20px;
+}
+.registro main select{
+    margin-top: 20px;
+}
+.registro main input{
+    margin-top: 20px;
+    border:rgb(173, 173, 173) solid 1px;
+}
+.registro main textarea{
+    width: 220px;
+    height: 100px;
+    margin-top: 20px;
+}
+.registro main button{
+    background-color: rgb(70, 144, 228);
+    color: white;
+    border: blue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}

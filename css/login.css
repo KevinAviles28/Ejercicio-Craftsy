@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login li{
+    list-style: none;
+    display: inline;
+    font-weight: bold; 
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+body{
+    background-image: url("../img/bg-2.png");
+}
+.login{
+    width:1140px;
+   
+}
+.login header{
+    width: 1140px;
+    background-color: orangered;
+    padding: 15px;
+    /* position: fixed; */ 
+     overflow: hidden; 
+    margin-bottom: 20px;
+   /*   z-index: 1; 
+     top:0;  */
+}
+.login header img{
+    float: left;
+}
+.login header ul.lista1{
+    float: left;
+    padding: 10px;
+}
+.login header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+.login header li{
+    padding: 10px;
+   }
+.login main{
+    width: 350px;
+    margin-top: 60px;
+    
+}
+.login main h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.login main p{
+    font-size: 18px;
+    padding: 10px;
+}
+.login main p#cosa{
+    float: right;
+    margin-top: 10px;
+}
+.login main input.datos{
+    width: 350px;
+    height: 30px;
+    border:rgb(173, 173, 173) solid 1px;
+}
+.login main input.boton{
+    float: right;
+    height: 20px;
+    margin-top: 20px;
+}
+.login main p#cosa2{
+    margin-top: 60px;
+    font-size: 13px;
+    color: red;
+}
+.login main button{
+    background-color:rgb(70, 144, 228);
+    color: white;
+    border:blue;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-top: 15px;
+} 
